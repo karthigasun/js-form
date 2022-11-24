@@ -2,18 +2,18 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(80, 80, 224);
+    background-image: linear-gradient(to left, #051937, #002366, #002a95, #0029c2, #4912eb);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: auto;
+    /* width: 100%; */
     font-family: sans-serif;
 }
 .container{
     background-color: #fff;
     border-radius: 5px;
-    box-shadow: 10px 20px 25px rgba(0,0,0,.3);
+    box-shadow: 10px 20px 25px rgba(0,0,0,0.5);
     overflow: hidden;
     max-width: 100%;
     width: 400px;
